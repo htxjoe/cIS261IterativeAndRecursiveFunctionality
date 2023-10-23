@@ -7,7 +7,7 @@ def factorial_iterative(num):
 def factorial_recursive(num):
     if num == 1 or num == 0:
         return 1
-    else return num + factorial_recursive(num - 1)
+    else return num * factorial_recursive(num - 1)
 
 def main():
     print("Factorial results using an iterative function.")
